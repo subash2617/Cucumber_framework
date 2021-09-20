@@ -96,5 +96,4 @@ public class AdactinWebPageSteps {
 	public void user_Clicks_the_Search_Button() {
 		driver.findElement(By.id("Submit")).click();
 	}
-
 }
