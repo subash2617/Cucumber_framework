@@ -27,8 +27,8 @@ public class AdactinWebPageSteps {
 
 	@When("User enters the username and password in adacting page")
 	public void user_enters_the_username_and_password_in_adacting_page() {
-		driver.findElement(By.id("username")).sendKeys("subash26");
-		driver.findElement(By.id("password")).sendKeys("Subash@123");
+		driver.findElement(By.id("username")).sendKeys("subash26"); //Dummy UserId
+		driver.findElement(By.id("password")).sendKeys("Subash@123"); //Dummy password
 	}
 
 	@When("User clicks the login button in adacting page")
